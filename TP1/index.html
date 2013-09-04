@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>TP1 - 2</title>
+</head>
+
+<body>
+<p><script type="text/javascript">
+	document.write("<div style=\"text-align:center\"><strong>Hello net !</strong></div>");
+
+</script> 
+</p>
+<p> 
+  <script type="text/javascript">
+mavar1 = "Bonjour";
+mavar2 = "nous sommes le vendredi 4 février 2011";
+mavar3 = mavar1+" : " +mavar2
+document.write(mavar3);
+</script> 
+</p>
+<p> 
+  <script type="text/javascript">
+var myCity=new Array("Antibes","Nice","Cannes", "Monaco");
+var nb_habitant=new Array("40000","350000","50000", "25000");
+var i=0;
+        for (i=0;i<=3;i++) {
+document.write(myCity[i] +" "+ nb_habitant[i] +"<br/>");
+		}
+
+</script> 
+</p>
+<p> 
+  <script type="text/javascript">
+var myCity=new Array("Antibes","Nice","Cannes", "Monaco");
+var nb_habitant=new Array("40000","350000","50000", "25000");
+var i=0;
+
+do {
+document.write(myCity[i] +" "+ nb_habitant[i] +"<br/>");
+               i++;
+        } while (i<=3);
+
+</script> 
+</p>
+<p> <script type="text/javascript">
+var myCity=new Array("Antibes","Nice","Cannes", "Monaco");
+var nb_habitant=new Array("40000","350000","50000", "25000");
+var i=0;
+for (i=0;i<=3;i++)
+	{
+	if (nb_habitant[i]>45000)
+		{
+document.write(myCity[i] +" "+ nb_habitant[i] +"<br/>");
+		}
+	}
+
+</script> </p>
+
+<p> <script type="text/javascript">
+var myCity=new Array("Antibes","Nice","Cannes", "Monaco");
+var nb_habitant=new Array("40000","350000","50000", "25000");
+var i=0;
+for (i=0;i<=3;i++)
+	{
+	if (nb_habitant[i]<45000)
+		{
+		continue
+		}
+	document.write(myCity[i] +" "+ nb_habitant[i] +"<br/>");
+	}
+
+</script></p>
+
+
+
+
+
+
+</body>
+</html>
